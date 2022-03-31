@@ -1,3 +1,4 @@
-punkList {
+.punkList {
     display: flex;
+    cursor: pointer;
 }
