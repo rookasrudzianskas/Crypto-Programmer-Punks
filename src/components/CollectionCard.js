@@ -7,8 +7,6 @@ const CollectionCard = ({id, name, traits, image}) => {
         <div className="collectionCard">
             <img src={image} alt=""/>
             <div className="details">
-
-            </div>
             <div className="name">
                 {name}
                 <div className="id">
@@ -20,6 +18,7 @@ const CollectionCard = ({id, name, traits, image}) => {
                         {traits[0]?.value}
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );
