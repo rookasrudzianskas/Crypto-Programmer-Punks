@@ -1,10 +1,17 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import instagramLogo from '../assets/owner/instagram.png';
 import twitterLogo from '../assets/owner/twitter.png';
 import moreIcon from '../assets/owner/more.png';
 import "./Main.css";
 
-const Main = ({activePunk}) => {
+const Main = ({selectedPunk, punkListData}) => {
+    const [activePunk, setActivePunk] = useState(punkListData[0]);
+
+
+    useEffect(() => {
+        setActivePunk(punkListData[selectedPunk]);
+    }, [punkListData, selectedPunk]);
+
     return (
         <div className="main" style={{display: 'flex', flexDirection: 'column', paddingTop: '10px'}}>
             <div className="mainContent" >
