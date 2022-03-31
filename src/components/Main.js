@@ -1,4 +1,7 @@
 import React from 'react';
+import instagramLogo from '../assets/owner/instagram.png';
+import twitterLogo from '../assets/owner/twitter.png';
+import moreIcon from '../assets/owner/more.png';
 
 const Main = ({activePunk}) => {
     return (
@@ -27,6 +30,15 @@ const Main = ({activePunk}) => {
                             </div>
                             <div className="ownerHandle">
                                 @rookasrudzianskas
+                            </div>
+                            <div className="ownerLink">
+                                <img src={instagramLogo} alt=""/>
+                            </div>
+                            <div className="ownerLink">
+                                <img src={twitterLogo} alt=""/>
+                            </div>
+                            <div className="ownerLink">
+                                <img src={moreIcon} alt=""/>
                             </div>
                         </div>
                     </div>
