@@ -21,3 +21,13 @@
     border-radius: 50px;
     align-items: center;
 }
+
+.searchIconContainer {
+    margin: 10px;
+}
+
+.searchInput {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
