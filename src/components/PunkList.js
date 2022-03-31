@@ -1,9 +1,14 @@
 import React from 'react';
+import CollectionCard from "./CollectionCard";
 
-const PunkList = () => {
+const PunkList = ({punkListData}) => {
     return (
-        <div className="">
-
+        <div className="punkList">
+            {punkListData.map((punk, index) => (
+                <div className="" key={index}>
+                    <CollectionCardg />
+                </div>
+            ))}
         </div>
     );
 };
