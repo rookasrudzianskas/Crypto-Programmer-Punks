@@ -6,7 +6,7 @@ import "./Main.css";
 
 const Main = ({activePunk}) => {
     return (
-        <div className="main" style={{display: 'flex', flexDirection: 'column', paddingTop: '100px'}}>
+        <div className="main" style={{display: 'flex', flexDirection: 'column', paddingTop: '10px'}}>
             <div className="mainContent" >
                 <div className="punkHighlight">
                     <div className="punkContainer">
