@@ -17,7 +17,7 @@ const Main = ({selectedPunk, punkListData}) => {
             <div className="mainContent" >
                 <div className="punkHighlight">
                     <div className="punkContainer">
-                        <img src="https://ipfs.thirdweb.com/ipfs/QmX5KmDnfBdHQhmCSnqsb4yp3dyHcY6dzd2f7L9NEgATtQ/0.jpg" className="selectedPunk" alt=""/>
+                        <img src={activePunk.image_original_url} className="selectedPunk" alt=""/>
                     </div>
                 </div>
 
