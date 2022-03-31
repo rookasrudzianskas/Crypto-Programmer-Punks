@@ -37,3 +37,12 @@
     color: #ffffff;
     font-size: 16px;
 }
+
+.headerItems {
+    display: flex;
+    align-items: center;
+}
+
+.headerItems > p {
+    margin: 10px;
+}
