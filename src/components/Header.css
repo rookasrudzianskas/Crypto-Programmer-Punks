@@ -50,4 +50,5 @@
 .themeSwitchContainer {
     display: flex;
     background-color: #1c1c1e;
+    border-radius: 50px;
 }
