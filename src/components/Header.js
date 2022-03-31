@@ -28,7 +28,13 @@ const Header = () => {
                 <div className="themeSwitchContainer">
                     <img src={themeSwitchIcon} alt=""/>
                 </div>
+
+                <div className="">
+                    <p className="">GET IN</p>
+                </div>
             </div>
+
+
         </div>
     );
 };
