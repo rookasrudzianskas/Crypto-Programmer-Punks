@@ -46,3 +46,8 @@
 .headerItems > p {
     margin: 10px;
 }
+
+.themeSwitchContainer {
+    display: flex;
+    background-color: #1c1c1e;
+}
