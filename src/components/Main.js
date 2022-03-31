@@ -20,6 +20,16 @@ const Main = ({activePunk}) => {
                     <div className="ownerImageContainer">
                         <img src="https://ipfs.thirdweb.com/ipfs/QmX5KmDnfBdHQhmCSnqsb4yp3dyHcY6dzd2f7L9NEgATtQ/0.jpg" alt=""/>
                     </div>
+                    <div className="ownerDetails">
+                        <div className="ownerNameAndHandle">
+                            <div className="">
+                                0x23DDc2606865a6feCe458E78D16Ffdf440785A88
+                            </div>
+                            <div className="ownerHandle">
+                                @rookasrudzianskas
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
