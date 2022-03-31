@@ -14,7 +14,12 @@ const Main = ({activePunk}) => {
                     <div classNam="title">
                         An Awesome Punk
                     </div>
-                    <span className="itemNumber">1</span>
+                    <span className="itemNumber">•#1</span>
+                </div>
+                <div className="owner">
+                    <div className="ownerImageContainer">
+                        <img src="https://ipfs.thirdweb.com/ipfs/QmX5KmDnfBdHQhmCSnqsb4yp3dyHcY6dzd2f7L9NEgATtQ/0.jpg" alt=""/>
+                    </div>
                 </div>
             </div>
         </div>
