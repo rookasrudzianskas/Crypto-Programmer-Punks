@@ -15,7 +15,7 @@ const CollectionCard = ({id, name, traits, image}) => {
                     •#{id}
                 </div>
                 <div className="priceContainer">
-                    <img src={weth} className="wethImage" alt=""/>
+                    <img src={weth} className="wetImage" alt=""/>
                     <div className="price">
                         {traits[0]?.value}
                     </div>
