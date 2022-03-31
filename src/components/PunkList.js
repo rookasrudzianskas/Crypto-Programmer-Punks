@@ -6,7 +6,12 @@ const PunkList = ({punkListData}) => {
         <div className="punkList">
             {punkListData.map((punk, index) => (
                 <div className="" key={index}>
-                    <CollectionCardg />
+                    <CollectionCard
+                        id={punk.token_id}
+                        name={punk.name}
+                        traits={punk.traits}
+                        image={punk.image_original_url}
+                    />
                 </div>
             ))}
         </div>
