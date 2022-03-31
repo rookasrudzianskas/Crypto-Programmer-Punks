@@ -8,3 +8,10 @@
 .punkLogo {
   width: 200px;
 }
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
