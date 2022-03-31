@@ -15,7 +15,7 @@ const CollectionCard = ({id, name, traits, image}) => {
                 <div className="priceContainer">
                     <img src={weth} className="wethImage" alt=""/>
                     <div className="price">
-
+                        {traits[0].value}
                     </div>
                 </div>
             </div>
