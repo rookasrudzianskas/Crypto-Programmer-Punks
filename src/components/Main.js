@@ -9,6 +9,12 @@ const Main = () => {
                         <img src={activePunk.image_original_url} className="selectedPunk" alt=""/>
                     </div>
                 </div>
+
+                <div className="punkDetails" style={{color: '#ffffff'}}>
+                    <div classNam="title">
+
+                    </div>
+                </div>
             </div>
         </div>
     );
