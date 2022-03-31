@@ -1,4 +1,5 @@
 import React from 'react';
+import weth from '../assets/weth.png';
 
 const CollectionCard = ({id, name, traits, image}) => {
     return (
@@ -15,7 +16,7 @@ const CollectionCard = ({id, name, traits, image}) => {
                 <div className="priceContainer">
                     <img src={weth} className="wethImage" alt=""/>
                     <div className="price">
-                        {traits[0].value}
+                        {traits[0]?.value}
                     </div>
                 </div>
             </div>
