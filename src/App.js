@@ -4,6 +4,7 @@ import CollectionCard from "./components/CollectionCard";
 import {useEffect, useState} from "react";
 import axios from "axios";
 import PunkList from "./components/PunkList";
+import Main from "./components/Main";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="app">
       <Header />
+      <Main />
       <PunkList punkListData={punkListData} />
 
     </div>
