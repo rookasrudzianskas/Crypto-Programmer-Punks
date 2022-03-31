@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
    const getMyNfts = async () => {
        // eslint-disable-next-line no-unused-vars
-     const openseaData = await axios.get(`https://testnets-api.opensea.io/assets?asset_contract_address=0x88b84C21aa4384C7939de52eD55b614D363E85D8&order_direction=asc`)
+     const openseaData = await axios.get(`https://testnets-api.opensea.io/assets?asset_contract_address=0xC36d211Da64a4cDD727F722196545Ec8799BeD9e&order_direction=asc`)
      console.log("This is data", openseaData.data.assets);
 
    }
